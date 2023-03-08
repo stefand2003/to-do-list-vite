@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  // border: 1px red solid;
+
+  align-items: center;
+
+  &__notification {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-grow: 1;
+  }
+
+  &__btn {
+    background-color: rgb(146, 28, 205);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 80px;
+  }
+}
