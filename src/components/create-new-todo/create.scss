@@ -1,0 +1,36 @@
+.create {
+  // border: 1px red solid;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 375px;
+
+  p {
+    height: 39px;
+    border: 1px gray solid;
+    flex-grow: 1;
+    font-size: medium;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 20px;
+  }
+
+  button {
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    font-size: x-large;
+    color: white;
+    background-color: rgb(146, 28, 205);
+    border-radius: 5px;
+    border: 0px;
+  }
+
+  &__para {
+    font-family: "Arial";
+    color: gray;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+}
