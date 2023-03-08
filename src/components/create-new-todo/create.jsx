@@ -1,7 +1,7 @@
 import React from "react";
 import "./create.scss";
 
-export default function create({ children }) {
+export default function create() {
   return (
     <div className="create">
       <p className="create__para">Add Your New ToDo</p>
